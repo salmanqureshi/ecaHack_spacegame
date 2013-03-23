@@ -1,0 +1,26 @@
+﻿Построение начато 22.03.2013 21:15:11.
+     1>Проект "D:\hack\CocosTest\CocosTest\proj.win32\CocosTest.win32.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug.win32\CocosTest.win32.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I..\Classes /ID:\hack\CocosTest\cocos2dx /ID:\hack\CocosTest\cocos2dx\include /ID:\hack\CocosTest\cocos2dx\kazmath\include /ID:\hack\CocosTest\cocos2dx\platform\win32 /ID:\hack\CocosTest\cocos2dx\platform\third_party\win32 /ID:\hack\CocosTest\cocos2dx\platform\third_party\win32\OGLES /ID:\hack\CocosTest\external /ID:\hack\CocosTest\CocosDenshion\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt Test.cpp
+         Test.cpp
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\hack\CocosTest\Debug.win32\CocosTest.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\hack\CocosTest\Debug.win32\ libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libBox2d.lib libCocosDenshion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\hack\CocosTest\Debug.win32\CocosTest.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\hack\CocosTest\Debug.win32\CocosTest.win32.lib" /MACHINE:X86 Debug.win32\CocosTest.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         Debug.win32\Test.obj
+         ..\..\Debug.win32\libBox2D.lib
+         ..\..\Debug.win32\libExtensions.lib
+         CocosTest.win32.vcxproj -> D:\hack\CocosTest\Debug.win32\CocosTest.win32.exe
+       FinalizeBuildStatus:
+         Файл "Debug.win32\CocosTest.win32.unsuccessfulbuild" удаляется.
+         Обращение к "Debug.win32\CocosTest.win32.lastbuildstate".
+     1>Построение проекта "D:\hack\CocosTest\CocosTest\proj.win32\CocosTest.win32.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:06.65

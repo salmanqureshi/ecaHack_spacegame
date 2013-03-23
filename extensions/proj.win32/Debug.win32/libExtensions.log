@@ -1,0 +1,111 @@
+﻿Построение начато 22.03.2013 22:27:10.
+     1>Проект "D:\hack\Space\extensions\proj.win32\libExtensions.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug.win32\libExtensions.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug.win32\libExtensions.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v7.1A\include" /ID:\hack\Space\extensions\proj.win32\..\..\external\chipmunk\include\chipmunk /ID:\hack\Space\extensions\proj.win32\..\..\external\sqlite3\include /ID:\hack\Space\extensions\proj.win32\..\..\external /ID:\hack\Space\extensions\proj.win32\..\..\cocos2dx /ID:\hack\Space\extensions\proj.win32\..\..\cocos2dx\include /ID:\hack\Space\extensions\proj.win32\..\..\cocos2dx\kazmath\include /ID:\hack\Space\extensions\proj.win32\..\..\cocos2dx\platform\win32 /ID:\hack\Space\extensions\proj.win32\..\..\cocos2dx\platform\third_party\win32 /ID:\hack\Space\extensions\proj.win32\..\..\cocos2dx\platform\third_party\win32\pthread /ID:\hack\Space\extensions\proj.win32\..\..\cocos2dx\platform\third_party\win32\OGLES /I..\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _LIB /D COCOS2D_DEBUG=1 /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\CCBReader\CCBAnimationManager.cpp ..\CCBReader\CCBFileLoader.cpp ..\CCBReader\CCBKeyframe.cpp ..\CCBReader\CCBReader.cpp ..\CCBReader\CCBSequence.cpp ..\CCBReader\CCBSequenceProperty.cpp ..\CCBReader\CCBValue.cpp ..\CCBReader\CCControlButtonLoader.cpp ..\CCBReader\CCControlLoader.cpp ..\CCBReader\CCData.cpp ..\CCBReader\CCLabelBMFontLoader.cpp ..\CCBReader\CCLabelTTFLoader.cpp ..\CCBReader\CCLayerColorLoader.cpp ..\CCBReader\CCLayerGradientLoader.cpp ..\CCBReader\CCLayerLoader.cpp ..\CCBReader\CCMenuItemImageLoader.cpp ..\CCBReader\CCMenuItemLoader.cpp ..\CCBReader\CCNode+CCBRelativePositioning.cpp ..\CCBReader\CCNodeLoader.cpp ..\CCBReader\CCNodeLoaderLibrary.cpp ..\CCBReader\CCParticleSystemQuadLoader.cpp ..\CCBReader\CCScale9SpriteLoader.cpp ..\CCBReader\CCScrollViewLoader.cpp ..\CCBReader\CCSpriteLoader.cpp ..\GUI\CCControlExtension\CCControl.cpp ..\GUI\CCControlExtension\CCControlButton.cpp ..\GUI\CCControlExtension\CCControlColourPicker.cpp ..\GUI\CCControlExtension\CCControlHuePicker.cpp ..\GUI\CCControlExtension\CCControlPotentiometer.cpp ..\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp ..\GUI\CCControlExtension\CCControlSlider.cpp ..\GUI\CCControlExtension\CCControlStepper.cpp ..\GUI\CCControlExtension\CCControlSwitch.cpp ..\GUI\CCControlExtension\CCControlUtils.cpp ..\GUI\CCControlExtension\CCInvocation.cpp ..\GUI\CCControlExtension\CCScale9Sprite.cpp ..\GUI\CCScrollView\CCScrollView.cpp ..\GUI\CCScrollView\CCSorting.cpp ..\GUI\CCScrollView\CCTableView.cpp ..\GUI\CCScrollView\CCTableViewCell.cpp ..\LocalStorage\LocalStorage.cpp ..\network\HttpClient.cpp ..\physics_nodes\CCPhysicsDebugNode.cpp ..\physics_nodes\CCPhysicsSprite.cpp
+         CCPhysicsSprite.cpp
+         CCPhysicsDebugNode.cpp
+         HttpClient.cpp
+         LocalStorage.cpp
+         CCTableViewCell.cpp
+         CCTableView.cpp
+         CCSorting.cpp
+         CCScrollView.cpp
+         CCScale9Sprite.cpp
+         CCInvocation.cpp
+         CCControlUtils.cpp
+         CCControlSwitch.cpp
+         CCControlStepper.cpp
+         CCControlSlider.cpp
+         CCControlSaturationBrightnessPicker.cpp
+         CCControlPotentiometer.cpp
+         CCControlHuePicker.cpp
+         CCControlColourPicker.cpp
+         CCControlButton.cpp
+         CCControl.cpp
+         Создание кода...
+         Компиляция...
+         CCSpriteLoader.cpp
+         CCScrollViewLoader.cpp
+         CCScale9SpriteLoader.cpp
+         CCParticleSystemQuadLoader.cpp
+         CCNodeLoaderLibrary.cpp
+         CCNodeLoader.cpp
+         CCNode+CCBRelativePositioning.cpp
+         CCMenuItemLoader.cpp
+         CCMenuItemImageLoader.cpp
+         CCLayerLoader.cpp
+         CCLayerGradientLoader.cpp
+         CCLayerColorLoader.cpp
+         CCLabelTTFLoader.cpp
+         CCLabelBMFontLoader.cpp
+         CCData.cpp
+         CCControlLoader.cpp
+         CCControlButtonLoader.cpp
+         CCBValue.cpp
+         CCBSequenceProperty.cpp
+         CCBSequence.cpp
+         Создание кода...
+         Компиляция...
+         CCBReader.cpp
+         CCBKeyframe.cpp
+         CCBFileLoader.cpp
+         CCBAnimationManager.cpp
+         Создание кода...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\hack\Space\Debug.win32\libExtensions.lib" /NOLOGO Debug.win32\CCBAnimationManager.obj
+         Debug.win32\CCBFileLoader.obj
+         Debug.win32\CCBKeyframe.obj
+         Debug.win32\CCBReader.obj
+         Debug.win32\CCBSequence.obj
+         Debug.win32\CCBSequenceProperty.obj
+         Debug.win32\CCBValue.obj
+         Debug.win32\CCControlButtonLoader.obj
+         Debug.win32\CCControlLoader.obj
+         Debug.win32\CCData.obj
+         Debug.win32\CCLabelBMFontLoader.obj
+         Debug.win32\CCLabelTTFLoader.obj
+         Debug.win32\CCLayerColorLoader.obj
+         Debug.win32\CCLayerGradientLoader.obj
+         Debug.win32\CCLayerLoader.obj
+         Debug.win32\CCMenuItemImageLoader.obj
+         Debug.win32\CCMenuItemLoader.obj
+         Debug.win32\CCNode+CCBRelativePositioning.obj
+         Debug.win32\CCNodeLoader.obj
+         Debug.win32\CCNodeLoaderLibrary.obj
+         Debug.win32\CCParticleSystemQuadLoader.obj
+         Debug.win32\CCScale9SpriteLoader.obj
+         Debug.win32\CCScrollViewLoader.obj
+         Debug.win32\CCSpriteLoader.obj
+         Debug.win32\CCControl.obj
+         Debug.win32\CCControlButton.obj
+         Debug.win32\CCControlColourPicker.obj
+         Debug.win32\CCControlHuePicker.obj
+         Debug.win32\CCControlPotentiometer.obj
+         Debug.win32\CCControlSaturationBrightnessPicker.obj
+         Debug.win32\CCControlSlider.obj
+         Debug.win32\CCControlStepper.obj
+         Debug.win32\CCControlSwitch.obj
+         Debug.win32\CCControlUtils.obj
+         Debug.win32\CCInvocation.obj
+         Debug.win32\CCScale9Sprite.obj
+         Debug.win32\CCScrollView.obj
+         Debug.win32\CCSorting.obj
+         Debug.win32\CCTableView.obj
+         Debug.win32\CCTableViewCell.obj
+         Debug.win32\LocalStorage.obj
+         Debug.win32\HttpClient.obj
+         Debug.win32\CCPhysicsDebugNode.obj
+         Debug.win32\CCPhysicsSprite.obj
+         libExtensions.vcxproj -> D:\hack\Space\Debug.win32\libExtensions.lib
+       FinalizeBuildStatus:
+         Файл "Debug.win32\libExtensions.unsuccessfulbuild" удаляется.
+         Обращение к "Debug.win32\libExtensions.lastbuildstate".
+     1>Построение проекта "D:\hack\Space\extensions\proj.win32\libExtensions.vcxproj" завершено (целевые объекты Rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:02:08.95

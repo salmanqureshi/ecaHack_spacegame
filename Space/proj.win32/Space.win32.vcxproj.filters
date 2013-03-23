@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{ff2f7ad7-455e-4b76-ba2d-1ac99a7da2ee}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{11b99814-e4bc-44b6-a910-5baae78b598f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{b863cabc-66d6-4fa3-ba82-2e0744c59f92}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{8be8e7c7-813c-4897-be30-cf4172dfc8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\Sound">
+      <UniqueIdentifier>{dd01dd66-0567-4b57-9dca-b5aac16262c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\Menu">
+      <UniqueIdentifier>{dc55cf2d-64dc-444e-855f-5d6a0becd234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\Backgrounds">
+      <UniqueIdentifier>{7293a1f9-35eb-4c9f-aa81-4f283c8593c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\enemy">
+      <UniqueIdentifier>{1ff89c67-c2ec-484b-b700-9126a1ee1507}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Space.ico">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\player.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\fire.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Menu\back_normal.png">
+      <Filter>resource\Menu</Filter>
+    </Image>
+    <Image Include="..\Resources\Menu\back_pushedl.png">
+      <Filter>resource\Menu</Filter>
+    </Image>
+    <Image Include="..\Resources\Menu\button_normal.png">
+      <Filter>resource\Menu</Filter>
+    </Image>
+    <Image Include="..\Resources\Menu\button_pushed.png">
+      <Filter>resource\Menu</Filter>
+    </Image>
+    <Image Include="..\Resources\Menu\line.png">
+      <Filter>resource\Menu</Filter>
+    </Image>
+    <Image Include="..\Resources\Menu\scoreBar.png">
+      <Filter>resource\Menu</Filter>
+    </Image>
+    <Image Include="..\Resources\Menu\tabled.png">
+      <Filter>resource\Menu</Filter>
+    </Image>
+    <Image Include="..\Resources\Menu\tick_active.png">
+      <Filter>resource\Menu</Filter>
+    </Image>
+    <Image Include="..\Resources\Menu\tick_deactive.png">
+      <Filter>resource\Menu</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\fog.png">
+      <Filter>resource\Backgrounds</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\garbage.png">
+      <Filter>resource\Backgrounds</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\planet.png">
+      <Filter>resource\Backgrounds</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\stars.png">
+      <Filter>resource\Backgrounds</Filter>
+    </Image>
+    <Image Include="..\Resources\asteroid.png">
+      <Filter>resource\enemy</Filter>
+    </Image>
+    <Image Include="..\Resources\enemy_0.png">
+      <Filter>resource\enemy</Filter>
+    </Image>
+    <Image Include="..\Resources\enemy_1.png">
+      <Filter>resource\enemy</Filter>
+    </Image>
+    <Image Include="..\Resources\enemy_2.png">
+      <Filter>resource\enemy</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\planet2.png">
+      <Filter>resource\Backgrounds</Filter>
+    </Image>
+    <Image Include="..\Resources\art.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\planet3.png">
+      <Filter>resource\Backgrounds</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\planet4.png">
+      <Filter>resource\Backgrounds</Filter>
+    </Image>
+    <Image Include="..\Resources\upgr.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Space.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="conf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLevel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="conf.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLevel.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Debug.win32\libcocos2d.dll">
+      <Filter>Libs</Filter>
+    </None>
+    <None Include="..\..\Debug.win32\libCocosDenshion.dll">
+      <Filter>Libs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\Debug.win32\libExtensions.lib">
+      <Filter>Libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\Sound\click.mp3">
+      <Filter>resource\Sound</Filter>
+    </Media>
+    <Media Include="..\Resources\Sound\menu_change.mp3">
+      <Filter>resource\Sound</Filter>
+    </Media>
+    <Media Include="..\Resources\Sound\menu_bg.mp3">
+      <Filter>resource\Sound</Filter>
+    </Media>
+    <Media Include="..\Resources\Sound\blaster.mp3">
+      <Filter>resource\Sound</Filter>
+    </Media>
+    <Media Include="..\Resources\Sound\theme_2.mp3">
+      <Filter>resource\Sound</Filter>
+    </Media>
+    <Media Include="..\Resources\Sound\enemy_destr.mp3">
+      <Filter>resource\Sound</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

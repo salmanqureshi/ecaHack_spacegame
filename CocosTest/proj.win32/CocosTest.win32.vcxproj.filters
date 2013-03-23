@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{ccdd4897-0e5f-4fc6-b0eb-84abe151b6b3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{671da0a9-fa0a-4de8-b39b-03a96770dcf7}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{80cf8ebd-fe91-4e7b-a3c2-853518fb1ce7}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{597ed123-95ff-4d19-978e-db3d31ab70eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\bg">
+      <UniqueIdentifier>{454c7bed-4974-489c-bb43-f8974e2cc3b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CocosTest.ico">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\player.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\bg_front_spacedust.png">
+      <Filter>resource\bg</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\bg_galaxy.png">
+      <Filter>resource\bg</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\bg_planetsunrise.png">
+      <Filter>resource\bg</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\bg_spacialanomaly.png">
+      <Filter>resource\bg</Filter>
+    </Image>
+    <Image Include="..\Resources\Backgrounds\bg_spacialanomaly2.png">
+      <Filter>resource\bg</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CocosTest.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\Debug.win32\libBox2D.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="..\..\Debug.win32\libExtensions.lib">
+      <Filter>Libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Debug.win32\libCocosDenshion.dll">
+      <Filter>Libs</Filter>
+    </None>
+    <None Include="..\..\Debug.win32\libcocos2d.dll">
+      <Filter>Libs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
